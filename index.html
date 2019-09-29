@@ -19,17 +19,25 @@ function setrandom(num) {return (parseInt((Math.random()+1)*num)-num)}
  
 //    nohide -->
 </script>
- 
+<style>
+	div {
+	    display: flex;
+	    display: -webkit-flex;
+	}
+	
+	p {
+		margin: auto;
+	}
+</style>
  
 </head>
 <body bgcolor="cccccc">
 	
 <span>
-<div align="center">
-<script name="javascript">
-<!-- hide
-document.write("<div align=center> <font face=courier new, courier color=black size=2><H1>"+blerk[setrandom(blerk.length)]+"</H1>");
-//    no hide    -->
-</script></p>
-
+<div >
+	<p>
+	<script name="javascript">
+	document.write("<H1>"+blerk[setrandom(blerk.length)]+"</H1>");
+	</script>
+	</p>
 </body>
